@@ -268,18 +268,4 @@ To test the application:
 5. Search conversations by title
 6. Verify all UI elements are responsive
 
-## Deployment
 
-### Backend Deployment (Example: Heroku)
-```bash
-heroku create your-app-name
-heroku addons:create heroku-postgresql:hobby-dev
-heroku config:set GEMINI_API_KEY=your_key
-git push heroku main
-```
-
-### Frontend Deployment (Example: Vercel)
-```bash
-npm install -g vercel
-vercel
-```
